@@ -17,9 +17,17 @@ public class FirstAppProject {
      */
     public static void main(String[] args) {
         
-        //few changes
-        
-        
+        Test firstDay = new Test(Day.Monday);
+        firstDay.tellItLikeItIs();
+        Test thirdDay = new Test(Day.Wednesday);
+        thirdDay.tellItLikeItIs();
+        Test fifthDay = new Test(Day.Friday);
+        fifthDay.tellItLikeItIs();
+        Test sixthDay = new Test(Day.Saturday);
+        sixthDay.tellItLikeItIs();
+        Test seventhDay = new Test(Day.Sunday);
+        seventhDay.tellItLikeItIs();
+   
     }
     
 }
